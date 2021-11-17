@@ -186,12 +186,12 @@ class _BodyHome extends StatelessWidget {
                 padding: const EdgeInsets.all(30.0),
                 child: Column(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Center(
                         child: Text(
-                          state.error,
+                          'Oops, something wrong.\nPlease try again',
                           textAlign: TextAlign.center,
-                          style: const TextStyle(
+                          style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
                         ),
                       ),
